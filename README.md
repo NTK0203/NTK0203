@@ -38,13 +38,17 @@
   - **교내 해커톤(숭실x덕성 워런톤:Hack it Your Way)/팀 프로젝트 우수상 수상**
   - 설문 관련 기능 백엔드 아키텍처 구현 및 데이터베이스 관리
   - AWS EC2를 활용한 서비스 배포 및 인프라 관리
+---
+### 📚[studying_Algorithm](https://github.com/NTK0203/studying_Algorithm)
+> **백준(Baekjoon) 문제 풀이 자동화(BaekjoonHub) 코드 업로드 및 파이썬 코딩테스트 서적 학습 코드**
+- **Language:** `C++`, `Python`
 
 ## 🧑‍💻 Contact me
-<a href="https://neworld0203.tistory.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white">
-</a>
+- **알고리즘, 공부 기록** : <a href="https://neworld0203.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-EB531F?style=flat-square&logo=Tistory&logoColor=white" align="center"></a>
+- **포트폴리오 정리** : <a href="https://www.notion.so/1e2a37f5177d822199e9018e210428c0" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white" align="center"></a>
 
 ## 🏅 Stats
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=neworld)](https://solved.ac/neworld)
 <div align="left">
     <img src="https://github-readme-stats.vercel.app/api?username=NTK0203&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NTK0203&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
