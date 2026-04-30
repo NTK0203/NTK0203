@@ -39,6 +39,14 @@
   - 설문 관련 기능 백엔드 아키텍처 구현 및 데이터베이스 관리
   - AWS EC2를 활용한 서비스 배포 및 인프라 관리
 ---
+### 🛡️ [Dreamhack_Writeup](https://github.com/NTK0203/Dreamhack_Writeup)
+> **드림핵 워게임 문제 풀이를 통한 시스템 해킹 및 리버스 엔지니어링 학습**
+- **Tech:** `C`, `Python (Pwntools)`, `Dreamhack`, `GDB (pwndbg)`, `IDA-free` 
+- **Key Implementations:**
+  - 드림핵 시스템 해킹 및 리버스 엔지니어링 학습 트랙 이수 완료
+  - Stack/Heap BOF, FSB, UAF 등 다양한 메모리와 레지스터 취약점 분석 및 익스플로잇
+  - 바이너리 디컴파일링 및 어셈블리 수준 정적/동적 분석을 통한 흐름 이해
+---
 ### 📚[studying_Algorithm](https://github.com/NTK0203/studying_Algorithm)
 > **백준(Baekjoon), 프로그래머스(Programmers) 문제 풀이 자동화(BaekjoonHub) 코드 업로드 및 파이썬 코딩테스트 서적 학습 코드**
 - **Language:** `C++`, `Python`
