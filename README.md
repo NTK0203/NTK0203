@@ -40,7 +40,7 @@
   - AWS EC2를 활용한 서비스 배포 및 인프라 관리
 ---
 ### 📚[studying_Algorithm](https://github.com/NTK0203/studying_Algorithm)
-> **백준(Baekjoon) 문제 풀이 자동화(BaekjoonHub) 코드 업로드 및 파이썬 코딩테스트 서적 학습 코드**
+> **백준(Baekjoon), 프로그래머스(Programmers) 문제 풀이 자동화(BaekjoonHub) 코드 업로드 및 파이썬 코딩테스트 서적 학습 코드**
 - **Language:** `C++`, `Python`
 
 ## 🧑‍💻 Contact me
