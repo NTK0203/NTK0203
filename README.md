@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"> <img src="https://img.shields.io/badge/xv6-FF6F00?style=flat-square&logo=OS&logoColor=white">
 
 ### ☁️ Database, Cloud & Tools
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/AWS_EC2-232F3E?style=flat-square&logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/AWS_EC2-232F3E?style=flat-square&logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">  <img src="https://img.shields.io/badge/IDA-FFFF00?style=flat-square&logo=IDA&logoColor=white">
 
 ## 📄 Featured Projects
 
@@ -49,6 +49,7 @@
 
 ## 🏅 Stats
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=neworld)](https://solved.ac/neworld)
+![Dreamhack Stats](https://dreamhack-readme-stats.vercel.app/api/stats?username=neworld)
 <div align="left">
     <img src="https://github-readme-stats.vercel.app/api?username=NTK0203&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NTK0203&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
