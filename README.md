@@ -37,12 +37,12 @@
 > **ROS2 기반 로봇 모델링, 시뮬레이션 및 지능형 제어 시스템 통합 실습**
 - **Tech:** `Python`, `ROS2 Humble`, `Gazebo`, `MoveIt2`, `Isaac Sim`
 - **Key Implementations:**
-  - URDF/Xacro를 활용한 로봇 팔 및 모바일 로봇 모델링 및 최적화
-  - Gazebo와 `ros2_control` 연동을 통한 물리 기반의 정밀 관절 제어 및 PID 튜닝
-  - MoveIt2 Python API 기반의 충돌 회피 알고리즘 및 최적 경로 계획(Planning) 구현
-  - Intel RealSense Depth 카메라를 이용한 Pixel-to-3D 좌표 변환 및 시각 기반 Pick & Place 시스템 구축
-  - Google Web Speech API 및 Modbus TCP를 연동한 음성 명령 기반 협동 로봇 제어(HRI) 설계
-  - NVIDIA Isaac Sim Python 스크립팅 API를 활용한 상태 기반 자율 주행 시나리오 구현
+  - URDF/Xacro를 활용한 로봇 팔 및 모바일 로봇 모델링
+  - Gazebo와 `ros2_control` 연동을 통한 물리 기반의 정밀 관절 제어
+  - MoveIt2 Python API 기반의 충돌 회피 알고리즘 및 경로 계획(Planning)
+  - Intel RealSense Depth 카메라를 이용한 Pixel-to-3D 좌표 변환 및 시각 기반 Pick & Place 구축
+  - Google Web Speech API 및 Modbus TCP를 연동한 음성 명령 기반 협동 로봇 제어(HRI)
+  - NVIDIA Isaac Sim Python 스크립팅 API를 활용한 상태 기반 자율 주행 시나리오 실습
 ---
 ### 🌿 [GreenCheck](https://github.com/NTK0203/green-check-BE)
 > **[우수상 수상] 팀 프로젝트 기반 백엔드 애플리케이션 개발** 
