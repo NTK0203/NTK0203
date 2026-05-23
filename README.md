@@ -53,6 +53,15 @@
   - 설문 관련 기능 백엔드 아키텍처 구현 및 데이터베이스 관리
   - AWS EC2를 활용한 서비스 배포 및 인프라 관리
 ---
+### 🤖 [RPS-Analysis-project](https://www.notion.so/2019-369a37f5177d80dbb251e44eda17ab6b?source=copy_link)
+> **[2019 경기과학학술제] 묵찌빠 게임 필승 전략 분석 및 로봇 팔 대조 실험**
+- **Role:** 아두이노 제어, 데이터 분석
+- **Tech:** `C++ (Arduino)`, `R`
+- **Key Achievements:**
+  - 경기 과학 학술제 우수 연구 팀 학술 발표 진행
+  - 인간 행동 패턴 데이터 기반 통계 분석(R) 및 묵찌빠 게임의 수학적 필승 전략 정립
+  - 인간의 심리적 요인을 배제한 대조군 구현을 위한 아두이노 기반 5축 로봇 팔 하드웨어 제작
+---
 ### 🛡️ [Dreamhack_Writeup](https://github.com/NTK0203/Dreamhack_Writeup)
 > **드림핵 워게임 문제 풀이를 통한 시스템 해킹 및 리버스 엔지니어링 학습**
 - **Tech:** `C`, `Python (Pwntools)`, `Dreamhack`, `GDB (pwndbg)`, `IDA-free` 
@@ -72,7 +81,4 @@
 ## 🏅 Stats
 [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=neworld)](https://solved.ac/neworld)
 ![Dreamhack Stats](https://dreamhack-readme-stats.vercel.app/api/stats?username=neworld)
-<div align="left">
-    <img src="https://github-readme-stats.vercel.app/api?username=NTK0203&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NTK0203&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000" height="150" />
 </div>
