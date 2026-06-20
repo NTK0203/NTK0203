@@ -4,8 +4,8 @@
 </div>
 
 ## 🎯 Interests
-- **System & OS:** 커널 분석 및 내부 구조, 메모리 관리 아키텍처
 - **Robotics:** ROS2 프레임워크 기반 로봇 제어 시스템 및 시뮬레이션 환경
+- **System & OS:** 커널 분석 및 내부 구조, 메모리 관리 아키텍처
 - **Java Spring:** java spring 기반 back-end 서비스
 
 ## 🛠️ Tech Stacks
@@ -24,16 +24,38 @@
 
 ## 📄 Featured Projects
 
-### 💻 [xv6-kernel-projects](https://github.com/NTK0203/os_xv6_project)
-> **교육용 OS xv6 커널 프로그래밍 설계, 구현**
-- **Tech:** `C`, `linux`, `QEMU`
-- **Key Implementations:**
-  - 커널 수준 systemcall 구현    
-  - Stride Scheduler (결정론적 비례 배분 스케줄러) 구현
-  - 해시 테이블 기반 Inverted Page Table(IPT) 설계
-  - Copy-on-Write(COW) 기반 파일 시스템 스냅샷 시스템 구축
+### 📊 Project Overview
+| 프로젝트명 | 핵심 기술 스택 | 한 줄 설명 |
+| :--- | :--- | :--- |
+| **[Convenience Automation](https://github.com/ssu-robotics-abc)** | `ROS2`, `MoveIt`, `YOLOv8`, `VLA` | ROS2 기반 비전 및 음성 인식을 활용한 편의점 자동화 로봇 시스템 |
+| **[Robotics Track](https://github.com/NTK0203/ssu_robotics_track)** | `ROS2`, `Gazebo`, `Isaac Sim` | 로봇 모델링, 정밀 제어 및 시뮬레이션 환경 구축 실습 |
+| **[xv6 Kernel Projects](https://github.com/NTK0203/os_xv6_project)** | `C`, `Linux`, `QEMU` | 교육용 xv6 커널을 활용한 스케줄러 및 파일 시스템 스냅샷 설계 |
+| **[GreenCheck](https://github.com/NTK0203/green-check-BE)** | `Java`, `Spring Boot`, `AWS` | [우수상] 설문 관련 기능 아키텍처 및 배포를 담당한 백엔드 애플리케이션 |
+| **[rsp Analysis](https://www.notion.so/2019-369a37f5177d80dbb251e44eda17ab6b?source=copy_link)** | `Arduino (C++)`, `R` | 묵찌빠 필승 전략 데이터 분석 및 로봇 팔 대조 실험 |
+| **[Dreamhack Writeup](https://github.com/NTK0203/Dreamhack_Writeup)** | `C`, `Python`, `GDB`, `IDA` | 시스템 해킹 취약점 분석 및 리버스 엔지니어링 학습 기록 |
+| **[studying Algorithm](https://github.com/NTK0203/studying_Algorithm)** | `C++`, `Python` | 백준 및 프로그래머스 알고리즘 문제 풀이 자동화 저장소 |
+
 ---
-### 🤖 [ssu-robotics-track](https://github.com/NTK0203/ssu_robotics_track)
+
+### 🔍 Detailed Implementations
+
+<details>
+<summary><b>🤖 team-abc-convenience-store-automation (상세 보기)</b></summary>
+
+> **ROS2 기반의 비전(YOLOv8/VLA) 및 음성(STT) 편의점 자동화 로봇 프로젝트**
+- **Tech:** `Python`, `ROS2 Humble`, `MoveIt`, `YOLOv8`, `OpenVLA`, `FastAPI`
+- **Key Implementations:**
+    - VLM·STT 주문, 키오스크 통신, YOLO, Pick-Scan-Place 제어를 통합하는 ros2 기반 task_planner 노드 구현
+        - 개별 상품별 실시간 UUID 생성 및 외부 웹 서버 HTTP 비동기 통신 연동
+        - 액션 클라이언트-서버 구조로 제어 노드 연동
+    - moveit 기반 Place_item 제어 노드 구현
+    - interface 관리 및 예외 피드백 처리
+- ros2 repo: https://github.com/ssu-robotics-abc/team_abc_ws
+</details>
+
+<details>
+<summary><b>🤖 ssu-robotics-track (상세 보기)</b></summary>
+
 > **ROS2 기반 로봇 모델링, 시뮬레이션 및 지능형 제어 시스템 통합 실습**
 - **Tech:** `Python`, `ROS2 Humble`, `Gazebo`, `MoveIt2`, `Isaac Sim`
 - **Key Implementations:**
@@ -43,8 +65,23 @@
   - Intel RealSense Depth 카메라를 이용한 Pixel-to-3D 좌표 변환 및 시각 기반 Pick & Place 구축
   - Google Web Speech API 및 Modbus TCP를 연동한 음성 명령 기반 협동 로봇 제어(HRI)
   - NVIDIA Isaac Sim Python 스크립팅 API를 활용한 상태 기반 자율 주행 시나리오 실습
----
-### 🌿 [GreenCheck](https://github.com/NTK0203/green-check-BE)
+</details>
+
+<details>
+<summary><b>💻 xv6-kernel-projects (상세 보기)</b></summary>
+
+> **교육용 OS xv6 커널 프로그래밍 설계, 구현**
+- **Tech:** `C`, `linux`, `QEMU`
+- **Key Implementations:**
+  - 커널 수준 systemcall 구현    
+  - Stride Scheduler (결정론적 비례 배분 스케줄러) 구현
+  - 해시 테이블 기반 Inverted Page Table(IPT) 설계
+  - Copy-on-Write(COW) 기반 파일 시스템 스냅샷 시스템 구축
+</details>
+
+<details>
+<summary><b>🌿 GreenCheck (상세 보기)</b></summary>
+
 > **[우수상 수상] 팀 프로젝트 기반 백엔드 애플리케이션 개발** 
 - **Role:** Backend Developer (API 구현 및 서비스 배포) 
 - **Tech:** `Java`, `Spring Boot`, `MySQL`, `AWS EC2`
@@ -52,8 +89,11 @@
   - **교내 해커톤(숭실x덕성 워런톤:Hack it Your Way)/팀 프로젝트 우수상 수상**
   - 설문 관련 기능 백엔드 아키텍처 구현 및 데이터베이스 관리
   - AWS EC2를 활용한 서비스 배포 및 인프라 관리
----
-### 🤖 [rsp-Analysis-project](https://www.notion.so/2019-369a37f5177d80dbb251e44eda17ab6b?source=copy_link)
+</details>
+
+<details>
+<summary><b>🤖 rsp-Analysis-project (상세 보기)</b></summary>
+
 > **[2019 경기과학학술제] 묵찌빠 게임 필승 전략 분석 및 로봇 팔 대조 실험**
 - **Role:** 아두이노 제어, 데이터 분석
 - **Tech:** `C++ (Arduino)`, `R`
@@ -61,18 +101,27 @@
   - 경기 과학 학술제 우수 연구 팀 학술 발표 진행
   - 인간 행동 패턴 데이터 기반 통계 분석(R) 및 묵찌빠 게임의 수학적 필승 전략 정립
   - 인간의 심리적 요인을 배제한 대조군 구현을 위한 아두이노 기반 5축 로봇 팔 하드웨어 제작
----
-### 🛡️ [Dreamhack_Writeup](https://github.com/NTK0203/Dreamhack_Writeup)
+</details>
+
+<details>
+<summary><b>🛡️ Dreamhack_Writeup (상세 보기)</b></summary>
+
 > **드림핵 워게임 문제 풀이를 통한 시스템 해킹 및 리버스 엔지니어링 학습**
 - **Tech:** `C`, `Python (Pwntools)`, `Dreamhack`, `GDB (pwndbg)`, `IDA-free` 
 - **Key Implementations:**
   - 드림핵 시스템 해킹 및 리버스 엔지니어링 학습 트랙 이수 완료
   - Stack/Heap BOF, FSB, UAF 등 다양한 메모리와 레지스터 취약점 분석 및 익스플로잇
   - 바이너리 디컴파일링 및 어셈블리 수준 정적/동적 분석을 통한 흐름 이해
----
-### 📚[studying_Algorithm](https://github.com/NTK0203/studying_Algorithm)
+</details>
+
+<details>
+<summary><b>📚 studying_Algorithm (상세 보기)</b></summary>
+
 > **백준(Baekjoon), 프로그래머스(Programmers) 문제 풀이 자동화(BaekjoonHub) 코드 업로드 및 파이썬 코딩테스트 서적 학습 코드**
 - **Language:** `C++`, `Python`
+</details>
+
+---
 
 ## 🧑‍💻 Contact me
 - **알고리즘, 공부 기록** : <a href="https://neworld0203.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-EB531F?style=flat-square&logo=Tistory&logoColor=white" align="center"></a>
